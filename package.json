@@ -1,0 +1,26 @@
+{
+  "name": "studyonecma6",
+  "version": "1.0.0",
+  "description": "study on webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilManjeray/studyonECMA6.git"
+  },
+  "keywords": [
+    "babel",
+    "ecma6"
+  ],
+  "author": "sunilmanjeray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilManjeray/studyonECMA6/issues"
+  },
+  "homepage": "https://github.com/sunilManjeray/studyonECMA6#readme",
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
+}
