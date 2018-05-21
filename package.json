@@ -1,26 +1,21 @@
 {
-  "name": "studyonecma6",
+  "name": "testing-webpack",
   "version": "1.0.0",
-  "description": "study on webpack",
-  "main": "index.js",
+  "description": "",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sunilManjeray/studyonECMA6.git"
+    "build": "./node_modules/.bin/webpack"
   },
   "keywords": [
-    "babel",
-    "ecma6"
+    "webpack",
+    "es6"
   ],
-  "author": "sunilmanjeray",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sunilManjeray/studyonECMA6/issues"
-  },
-  "homepage": "https://github.com/sunilManjeray/studyonECMA6#readme",
-  "dependencies": {
-    "npm": "^6.0.1"
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^1.12.2"
   }
 }
